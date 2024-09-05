@@ -5,8 +5,8 @@ import { FaUserGroup } from "react-icons/fa6";
 const RightSideBox = () => {
   return (
     <>
-      <div className="bg-slate-800 shadow-md p-4 border-b-2 border-gray-700">
-        <button className="btn btn-sm h-10 text-white rounded-sm px-12 btn-primary">
+      <div className="bg-slate-800 shadow-md p-7 border-b-2 border-gray-700">
+        <button className="btn btn-sm h-10 text-white rounded-sm max-w-48 w-full btn-primary">
           Ask a question
         </button>
       </div>

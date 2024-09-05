@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
               <Navbar />
             </div>
           </div>
-          <div className="pb-4">
+          <div className="">
             <Banner/>
           </div>
           <div className="max-w-7xl mx-auto px-4">
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
               <div className="col-span-2 pt-16">
                 <LeftSideRoute />
               </div>
-              <div className="col-span-6  border border-blue-500">{children}</div>
+              <div className="col-span-6 bg-gray-800 w-full border border-gray-700">{children}</div>
               <div className="col-span-2 border border-slate-700">
                 <RightSideBox />
               </div>

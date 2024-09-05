@@ -19,7 +19,7 @@ const Banner = () => {
                 repudiandae et a id nisi.
               </p>
             </div>
-            <button className="btn btn-sm h-10 text-white rounded-sm px-12 btn-primary">Create a new account</button>
+            <button className="btn btn-sm h-10 text-white rounded-sm max-w-48 w-full btn-primary">Create a new account</button>
           </div>
         </div>
       </div>
