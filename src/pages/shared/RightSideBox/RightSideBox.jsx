@@ -55,7 +55,7 @@ const RightSideBox = () => {
             <div className="flex gap-3 ">
               <div className="mt-1">
                 <div className="avatar">
-                  <div className="w-6 rounded-full">
+                  <div className="w-8 rounded-full">
                     <Image
                       width={500}
                       height={400}
@@ -65,7 +65,7 @@ const RightSideBox = () => {
                   </div>
                 </div>
               </div>
-              <div className="">
+              <div className="ml-3">
                 <p className="text-sm">
                   How to approach applying for a job at a company ...
                 </p>
@@ -76,11 +76,11 @@ const RightSideBox = () => {
               </div>
             </div>
           </div>
-          <div className="bg-slate-800 pb-5 px-4 border-b border-slate-700">
+          <div className="bg-slate-800 py-6 px-4 border-b border-slate-700">
             <div className="flex gap-3 ">
               <div className="mt-1">
                 <div className="avatar">
-                  <div className="w-6 rounded-full">
+                  <div className="w-8 rounded-full">
                     <Image
                       width={500}
                       height={400}
@@ -90,7 +90,7 @@ const RightSideBox = () => {
                   </div>
                 </div>
               </div>
-              <div className="">
+              <div className="ml-3">
                 <p className="text-sm">
                   How to approach applying for a job at a company ...
                 </p>
@@ -101,11 +101,11 @@ const RightSideBox = () => {
               </div>
             </div>
           </div>
-          <div className="bg-slate-800 py-6 px-4 pb-12 border-b border-slate-700">
+          <div className="bg-slate-800 py-6 px-4 pb-10 border-b border-slate-700">
             <div className="flex gap-3 ">
               <div className="mt-1">
                 <div className="avatar">
-                  <div className="w-6 rounded-full">
+                  <div className="w-8 rounded-full">
                     <Image
                       width={500}
                       height={400}
@@ -115,7 +115,7 @@ const RightSideBox = () => {
                   </div>
                 </div>
               </div>
-              <div className="">
+              <div className="ml-3">
                 <p className="text-sm">
                   How to approach applying for a job at a company ...
                 </p>
@@ -129,10 +129,134 @@ const RightSideBox = () => {
         </div>
       </div>
       {/* 3rd section  */}
-      <div className="bg-slate-800 pt-5 px-4 border-t-2 border-slate-700">
+      <div className="bg-slate-800 pt-9 px-4 border-t-2 border-slate-700">
         <div className="flex">
           <FaUserGroup className="" size={21} />
           <h4 className="pl-4"> Top Members</h4>
+        </div>
+        <div className="py-5">
+          <div className="flex gap-3 py-4">
+            <div>
+              <div className="avatar">
+                <div className="w-10 ring-primary ring-offset-base-100 rounded-full ring-1 ring-offset-2">
+                  <Image
+                    width={500}
+                    height={400}
+                    alt="profile"
+                    src="https://backiee.com/static/wallpapers/1000x563/403302.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="ml-3">
+              <h4 className="text-base">Md. Jahangir Alam</h4>
+              <div className="flex-col mt-1">
+                <p className="text-xs flex ml-1">
+                  <TbMessage className="mt-0.5" />
+                  <small className="mx-1.5 mb-1"> 5 Questions</small>{" "}
+                  <small>518 Points</small>
+                </p>
+                <button className="py-[1px] px-1.5 text-white text-xs bg-[#D9A34A]">
+                  Enlightened
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex gap-3 py-4">
+            <div>
+              <div className="avatar">
+                <div className="w-10 ring-primary ring-offset-base-100 rounded-full ring-1 ring-offset-2">
+                  <Image
+                    width={500}
+                    height={400}
+                    alt="profile"
+                    src="https://backiee.com/static/wallpapers/1000x563/403302.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="ml-3">
+              <h4 className="text-base">Md. Jahangir Alam</h4>
+              <div className="flex-col mt-1">
+                <p className="text-xs flex ml-1">
+                  <TbMessage className="mt-0.5" />
+                  <small className="mx-1.5 mb-1"> 5 Questions</small>{" "}
+                  <small>518 Points</small>
+                </p>
+                <button className="py-[1px] px-1.5 text-white text-xs bg-[#D9A34A]">
+                  Enlightened
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex gap-3 py-4">
+            <div>
+              <div className="avatar">
+                <div className="w-10 ring-primary ring-offset-base-100 rounded-full ring-1 ring-offset-2">
+                  <Image
+                    width={500}
+                    height={400}
+                    alt="profile"
+                    src="https://backiee.com/static/wallpapers/1000x563/403302.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="ml-3">
+              <h4 className="text-base">Md. Jahangir Alam</h4>
+              <div className="flex-col mt-1">
+                <p className="text-xs flex ml-1">
+                  <TbMessage className="mt-0.5" />
+                  <small className="mx-1.5 mb-1"> 5 Questions</small>{" "}
+                  <small>518 Points</small>
+                </p>
+                <button className="py-[1px] px-1.5 text-white text-xs bg-[#D9A34A]">
+                  Enlightened
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* 4th section  */}
+      <div className="bg-slate-800 pt-9 px-4 border-t-2 border-slate-700">
+        <div className="flex">
+          <FaUserGroup className="" size={21} />
+          <h4 className="pl-4">Trending Tags</h4>
+        </div>
+        <div className="py-8 max-w-sm flex-col space-x-1 space-y-1">
+          <button className="btn btn-outline hover:bg-primary btn-sm rounded-sm">
+            analytics
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            programming
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            programming
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            programming
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">program</button>
+          <button className="btn btn-outline btn-sm rounded-sm">french</button>
+          <button className="btn btn-outline btn-sm rounded-sm">fb</button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            facebook
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">life</button>
+          <button className="btn btn-outline btn-sm rounded-sm">partner</button>
+          <button className="btn btn-outline btn-sm rounded-sm">life</button>
+          <button className="btn btn-outline btn-sm rounded-sm">partner</button>
+          <button className="btn btn-outline btn-sm rounded-sm">google</button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            bangladesh
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            developer
+          </button>
+          <button className="btn btn-outline btn-sm rounded-sm">
+            front end developer
+          </button>
         </div>
       </div>
     </>

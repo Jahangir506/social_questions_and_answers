@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           </div>
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid grid-cols-10 gap-2.5">
-              <div className="col-span-2 pt-14">
+              <div className="col-span-2 pt-16">
                 <LeftSideRoute />
               </div>
               <div className="col-span-6  border border-blue-500">{children}</div>
