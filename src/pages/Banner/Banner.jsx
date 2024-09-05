@@ -2,22 +2,24 @@ const Banner = () => {
   return (
     <>
       <div
-        className="hero"
+        className="hero h-96"
         style={{
           backgroundImage:
-            "url(https://backiee.com/static/wallpapers/1000x563/403278.jpg)",
+            "url(https://backiee.com/static/wallpapers/1000x563/199644.jpg)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button className="btn btn-primary">Get Started</button>
+        <div className="hero-overlay"></div>
+        <div className="hero-content pt-24 w-full text-neutral-content">
+          <div className="w-full flex justify-between items-center">
+            <div className="max-w-2xl">
+              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <p className="mb-5">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+            </div>
+            <button className="btn btn-sm h-10 text-white rounded-sm px-12 btn-primary">Create a new account</button>
           </div>
         </div>
       </div>

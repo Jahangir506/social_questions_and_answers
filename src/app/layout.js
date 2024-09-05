@@ -16,23 +16,23 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="mytheme">
       <body className={inter.className}>
         <div>
-          <div className="bg-base-200 border-b border-slate-700">
+          <div className="fixed z-50 w-full bg-base-200 border-b border-slate-500">
             <div className="max-w-7xl mx-auto">
               <Navbar />
             </div>
           </div>
-          <div className="h-72">
+          <div className="pb-4">
             <Banner/>
           </div>
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-10 justify-center items-center">
-              <div className="col-span-2 border border-red-600 h-screen">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid grid-cols-10 gap-4">
+              <div className="col-span-2 pt-14">
                 <LeftSideRoute />
               </div>
-              <div className="col-span-6">{children}</div>
+              <div className="col-span-6  border border-blue-500">{children}</div>
               <div className="col-span-2 border border-red-600 h-screen">
                 <RightSideBox />
               </div>

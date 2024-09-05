@@ -1,7 +1,9 @@
 const RightSideBox = () => {
     return(
         <>
-             <h1> Hello, I Am RightSideBox Components </h1>
+             <div>
+             <button className="btn btn-sm h-10 text-white rounded-sm px-12 btn-primary">Ask a question</button>
+             </div>
         </>
     )}
 export default RightSideBox;
