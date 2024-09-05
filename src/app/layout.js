@@ -28,12 +28,12 @@ export default function RootLayout({ children }) {
             <Banner/>
           </div>
           <div className="max-w-7xl mx-auto px-4">
-            <div className="grid grid-cols-10 gap-4">
+            <div className="grid grid-cols-10 gap-2.5">
               <div className="col-span-2 pt-14">
                 <LeftSideRoute />
               </div>
               <div className="col-span-6  border border-blue-500">{children}</div>
-              <div className="col-span-2 border border-red-600 h-screen">
+              <div className="col-span-2 border border-slate-700">
                 <RightSideBox />
               </div>
             </div>

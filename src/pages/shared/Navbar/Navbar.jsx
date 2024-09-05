@@ -62,6 +62,9 @@ const Navbar = () => {
               <a>Blog</a>
             </li>
             <li>
+              <a>Blip</a>
+            </li>
+            <li>
               <a>Contact Us</a>
             </li>
           </ul>

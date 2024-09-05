@@ -6,7 +6,7 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'backiee.com',
             port: '',
-            pathname: 'static/wallpapers/1000x563/403278.jpg',
+            pathname: '/**',
           },
         ],
       },
