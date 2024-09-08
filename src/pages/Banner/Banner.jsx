@@ -10,7 +10,7 @@ const Banner = () => {
       >
         <div className="hero-overlay"></div>
         <div className="hero-content pt-24 w-full text-neutral-content">
-          <div className="w-full flex justify-between items-center">
+          <div className="w-full lg:flex flex-row justify-between items-center">
             <div className="max-w-2xl">
               <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
               <p className="mb-5">

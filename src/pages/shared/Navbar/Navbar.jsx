@@ -70,10 +70,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-2">
-          <a className="btn px-8 text-white rounded-sm btn-sm btn-primary">
+          <a className="btn hidden lg:flex px-8 text-white rounded-sm btn-sm btn-primary">
             Sign In
           </a>
-          <a className="btn px-8 text-white rounded-sm btn-sm bg-gray-700 btn-ghost">
+          <a className="btn hidden lg:flex px-8 text-white rounded-sm btn-sm bg-gray-700 btn-ghost">
             Sign Up
           </a>
         </div>
