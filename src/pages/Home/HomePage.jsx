@@ -48,7 +48,7 @@ const HomePage = () => {
                       </small>
                     </div>
                   </div>
-                  <div className="w-full">
+                  <div className="w-full mt-5 lg:mt-0">
                     <h4 className="text-base max-w-72 lg:max-w-3xl text-justify font-semibold py-1.5">
                       How do native speakers tell I’m foreign based on my
                       English alone?
@@ -68,17 +68,17 @@ const HomePage = () => {
                         programming
                       </button>
                     </div>
-                    <div className="flex my-4 p-4 rounded-sm justify-between items-center  bg-slate-700 ">
-                      <div className="flex gap-3">
-                        <button className="btn btn-outline btn-sm rounded-sm">
+                    <div className="flex w-full gap-3 my-4 rounded-sm justify-between items-center  bg-slate-700 p-4">
+                      <div className="flex gap-2">
+                        <button className="border hover:bg-blue-600 border-gray-600 py-1 px-2 rounded-sm">
                           programming
                         </button>
-                        <button className="btn btn-outline btn-sm rounded-sm">
-                          <span>2k Views</span>
+                        <button className="border border-gray-600 hover:bg-blue-600 py-1 px-2 rounded-sm">
+                          2k Views
                         </button>
                       </div>
                       <div>
-                        <button className="btn btn-black text-white btn-sm rounded-sm">
+                        <button className="bg-black py-1 px-2 text-white rounded-sm">
                           Answer
                         </button>
                       </div>
