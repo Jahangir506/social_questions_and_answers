@@ -556,7 +556,7 @@ const HomePage = () => {
           </div> */}
         </div>
       </div>
-      <div className="mt-8 w-full px-8 ">
+      <div className="my-8 w-full px-3 lg:px-8 ">
         <button className="btn btn-sm bg-slate-500 hover:bg-[#0285DD] border hover:border-[#0285DD] h-9 w-full bg-gray-400 text-white hover:bg-primary rounded-sm">
           Load More Question
         </button>
