@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { TbMessage } from "react-icons/tb";
+import { FaEye } from "react-icons/fa";
+import { FaMessage } from "react-icons/fa6";
 
 const HomePage = () => {
   return (
@@ -61,19 +63,21 @@ const HomePage = () => {
                       take too long to ...
                     </p>
                     <div className="flex gap-2 py-4">
-                      <button className="btn btn-outline hover:bg-primary btn-sm rounded-sm">
+                      <button className="hover:text-white border border-[#0285DD] hover:bg-[#0285DD] hover:border-[#0285DD] btn-sm rounded-sm">
                         analytics
                       </button>
-                      <button className="btn btn-outline btn-sm rounded-sm">
+                      <button className="hover:text-white border border-[#0285DD] hover:bg-[#0285DD] hover:border-[#0285DD] btn-sm rounded-sm">
                         programming
                       </button>
                     </div>
                     <div className="flex w-full gap-3 my-4 rounded-sm justify-between items-center  bg-slate-700 p-4">
-                      <div className="flex gap-2">
-                        <button className="border hover:bg-blue-600 border-gray-600 py-1 px-2 rounded-sm">
-                          programming
+                      <div className="flex gap-3">
+                        <button className="flex items-center gap-2 hover:text-white border border-[#0285DD] hover:bg-[#0285DD] hover:border-[#0285DD] py-1 px-2 rounded-sm">
+                          <FaMessage size={12}/>
+                          Answers
                         </button>
-                        <button className="border border-gray-600 hover:bg-blue-600 py-1 px-2 rounded-sm">
+                        <button className="hover:text-white flex items-center gap-2 border border-[#0285DD] hover:bg-[#0285DD] hover:border-[#0285DD] py-1 px-2 rounded-sm">
+                        <FaEye/>
                           2k Views
                         </button>
                       </div>
@@ -552,8 +556,8 @@ const HomePage = () => {
           </div> */}
         </div>
       </div>
-      <div className="mt-8 w-full">
-        <button className="btn btn-sm h-2 w-full bg-gray-400 text-white hover:bg-primary rounded-sm">
+      <div className="mt-8 w-full px-8 ">
+        <button className="btn btn-sm bg-slate-500 hover:bg-[#0285DD] border hover:border-[#0285DD] h-9 w-full bg-gray-400 text-white hover:bg-primary rounded-sm">
           Load More Question
         </button>
       </div>

@@ -25,8 +25,8 @@ const Banner = () => {
                 deleniti eaque aut repudiandae et a id nisi.
               </p>
             </div>
-            <div className="flex justify-center pt-3 lg:pt-0">
-              <button className="btn btn-sm h-10 bg_btn-primary hover:bg-[#0285DD] text-white rounded-sm btn-primary">
+            <div className="flex justify-center pt-4 lg:pt-0">
+              <button className="btn btn-sm h-10 bg_btn-primary hover:bg-[#0285DD] border border-[#02C8E6] hover:border-[#0285DD] text-white rounded-sm btn-primary">
                 Create a new account
               </button>
             </div>

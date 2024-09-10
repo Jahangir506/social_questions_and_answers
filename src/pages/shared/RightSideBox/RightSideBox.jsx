@@ -6,7 +6,7 @@ const RightSideBox = () => {
   return (
     <>
       <div className="bg-slate-800 shadow-md p-7 border-b-2 border-gray-700">
-        <button className="btn bg_btn-primary hover:bg-[#0285DD] btn-sm h-10 text-white rounded-sm max-w-48 w-full btn-primary">
+        <button className="btn bg_btn-primary hover:bg-[#0285DD] border border-[#02C8E6] hover:border-[#0285DD] btn-sm h-10 text-white rounded-sm max-w-48 w-full btn-primary">
           Ask a question
         </button>
       </div>
