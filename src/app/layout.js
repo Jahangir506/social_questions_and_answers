@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
               <div className="col-span-2 hidden lg:flex pt-16">
                 <LeftSideRoute />
               </div>
-              <div className="col-span-full lg:col-span-6 bg-gray-800 border border-gray-700">{children}</div>
+              <div className="col-span-full lg:col-span-6 bg-gray-800 border-0 lg:border border-gray-700">{children}</div>
               <div className="col-span-2 hidden lg:grid  border border-slate-700">
                 <RightSideBox />
               </div>
