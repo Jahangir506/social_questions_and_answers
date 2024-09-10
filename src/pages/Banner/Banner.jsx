@@ -1,3 +1,5 @@
+import "../../app/globals.css"
+
 const Banner = () => {
   return (
     <>
@@ -24,7 +26,7 @@ const Banner = () => {
               </p>
             </div>
             <div className="flex justify-center">
-              <button className="btn btn-sm h-10 text-white rounded-sm btn-primary">
+              <button className="btn btn-sm h-10 bg_btn-primary hover:bg-[#0285DD] text-white rounded-sm btn-primary">
                 Create a new account
               </button>
             </div>

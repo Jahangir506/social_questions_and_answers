@@ -1,6 +1,7 @@
 import InputSearch from "@/components/NavbarC/InputSearch";
 import Image from "next/image";
 import logo from "../../../../public/logo.png";
+import "../../../app/globals.css"
 const Navbar = () => {
   return (
     <>
@@ -74,10 +75,10 @@ const Navbar = () => {
           <div className="mr-4">
             <InputSearch />
           </div>
-          <a className="btn hidden lg:flex px-8 text-white rounded-sm btn-sm btn-primary">
+          <a className="btn hidden bg_btn-primary hover:bg-[#0285DD] lg:flex px-8 text-white rounded-sm btn-sm btn-primary">
             Sign In
           </a>
-          <a className="btn hidden lg:flex px-8 text-white rounded-sm btn-sm bg-gray-700 btn-ghost">
+          <a className="btn hidden lg:flex px-8 text-white rounded-sm btn-sm btn-outline border-gray-600 hover:bg-[#0285DD] hover:text-white btn-ghost">
             Sign Up
           </a>
         </div>
