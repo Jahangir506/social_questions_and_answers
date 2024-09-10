@@ -15,25 +15,25 @@ const RightSideBox = () => {
         <div className="bg-slate-800 w-full shadow-md border border-gray-700">
           <div className="text-center py-2 border-blue-600">
             <h4 className="text-blue-600 text-xs">Question</h4>
-            <p className="text-2xl font-bold">21</p>
+            <p className="text-2xl font-bold">215</p>
           </div>
         </div>
         <div className="bg-slate-800 w-full shadow-md border border-gray-700">
           <div className="text-center py-2 border-blue-600">
             <h4 className="text-red-600 text-xs">Answers</h4>
-            <p className="text-2xl font-bold">21</p>
+            <p className="text-2xl font-bold">49</p>
           </div>
         </div>
         <div className="bg-slate-800 w-full shadow-md border border-gray-700">
           <div className="text-center py-2 border-blue-600">
             <h4 className="text-green-600 text-xs">Best Answers</h4>
-            <p className="text-2xl font-bold">21</p>
+            <p className="text-2xl font-bold">98</p>
           </div>
         </div>
         <div className="bg-slate-800 w-full shadow-md border border-gray-700">
           <div className="text-center py-2 border-blue-600">
             <h4 className="text-blue-600 text-xs">Users</h4>
-            <p className="text-2xl font-bold">21</p>
+            <p className="text-2xl font-bold">72</p>
           </div>
         </div>
       </div>
