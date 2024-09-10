@@ -2,6 +2,7 @@ import Image from "next/image";
 import { TbMessage } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -44,7 +45,8 @@ const HomePage = () => {
                       <small className="text-xs mr-3">
                         Asked:{" "}
                         <span className="text-blue-600">April 04 2024</span>
-                      </small> <br />
+                      </small>{" "}
+                      <br />
                       <small className="text-xs">
                         In: <span className="text-blue-600">Language</span>
                       </small>
@@ -73,18 +75,20 @@ const HomePage = () => {
                     <div className="flex w-full gap-3 my-4 rounded-sm justify-between items-center  bg-slate-700 p-4">
                       <div className="flex gap-3">
                         <button className="flex items-center gap-2 hover:text-white border border-[#0285DD] hover:bg-[#0285DD] hover:border-[#0285DD] py-1 px-2 rounded-sm">
-                          <FaMessage size={12}/>
+                          <FaMessage size={12} />
                           Answers
                         </button>
                         <button className="hover:text-white flex items-center gap-2 border border-[#0285DD] hover:bg-[#0285DD] hover:border-[#0285DD] py-1 px-2 rounded-sm">
-                        <FaEye/>
+                          <FaEye />
                           2k Views
                         </button>
                       </div>
                       <div>
-                        <button className="bg-black py-1 px-2 text-white rounded-sm">
-                          Answer
-                        </button>
+                        <Link href="answer">
+                          <button className="bg-black py-1 px-2 text-white rounded-sm">
+                            Answer
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

@@ -1,7 +1,8 @@
 import InputSearch from "@/components/NavbarC/InputSearch";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../../../public/logo.png";
-import "../../../app/globals.css"
+import "../../../app/globals.css";
 const Navbar = () => {
   return (
     <>
@@ -47,10 +48,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="flex justify-center items-center gap-1.5">
+          <Link href="/" className="flex justify-center items-center gap-1.5">
             <Image width={50} height={50} src={logo} alt="website logo" />
-            <a className="text-2xl font-bold">Inquiry</a>
-          </div>
+            <button className="text-2xl font-bold">Inquiry</button>
+          </Link>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>

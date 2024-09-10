@@ -1,9 +1,3 @@
-import Banner from "@/pages/Banner/Banner";
-import FooterPage from "@/pages/shared/Footer/Footer";
-import UnderSubFooter from "@/pages/shared/Footer/UnderSubFooter";
-import LeftSideRoute from "@/pages/shared/LeftSideRoute/LeftSideRoute";
-import Navbar from "@/pages/shared/Navbar/Navbar";
-import RightSideBox from "@/pages/shared/RightSideBox/RightSideBox";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -18,37 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="mytheme">
       <body className={inter.className}>
-        <div>
-          <div className="fixed z-50 w-full bg-base-200 w-[320px] lg:w-full border-b border-slate-500">
-            <div className="max-w-7xl mx-auto">
-              <Navbar />
-            </div>
-          </div>
-          <div>
-            <Banner/>
-          </div>
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-10 gap-2.5">
-              <div className="col-span-2 hidden lg:flex pt-16">
-                <LeftSideRoute />
-              </div>
-              <div className="col-span-full lg:col-span-6 bg-gray-800 border-0 lg:border border-gray-700">{children}</div>
-              <div className="col-span-2 hidden lg:grid  border border-slate-700">
-                <RightSideBox />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="bg-base-200 border-t  border-slate-700">
-          <div className="max-w-7xl mx-auto">
-            <FooterPage />
-          </div>
-          <div className="bg-base-200 border-t border-slate-800">
-            <div className="max-w-7xl mx-auto">
-              <UnderSubFooter />
-            </div>
-          </div>
-        </div>
+      {children}
       </body>
     </html>
   );
