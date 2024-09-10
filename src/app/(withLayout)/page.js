@@ -13,7 +13,7 @@ export default function Home({ children }) {
         <div>
           <Banner />
         </div>
-        <div className="pt-[77px]">
+        <div>
           <div className="max-w-7xl  mx-auto">
             <div className="grid grid-cols-10 gap-2.5">
               <div className="col-span-2 hidden lg:flex pt-16">
