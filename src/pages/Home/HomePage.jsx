@@ -49,7 +49,7 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="w-full mt-5 lg:mt-0">
-                    <h4 className="text-base text-justify font-semibold py-1.5">
+                    <h4 className="text-lg text-justify font-semibold py-1.5">
                       How do native speakers tell I’m foreign based on my
                       English alone?
                     </h4>

@@ -12,10 +12,10 @@ const Banner = () => {
         <div className="hero-content pt-24 w-full text-neutral-content">
           <div className="w-full lg:flex flex-row justify-between items-center">
             <div className="max-w-2xl ">
-              <h1 className="mb-5 text-center lg:text-start text-5xl  font-bold">
+              <h1 className="mb-5 text-center lg:text-start text-3xl lg:text-5xl  font-bold">
                 Hello there
               </h1>
-              <p className="mb-5 text-justify">
+              <p className="text-sm lg:text-base text-justify">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi. Provident cupiditate voluptatem et in.
