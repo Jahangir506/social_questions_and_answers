@@ -4,7 +4,7 @@ import { TbMessage } from "react-icons/tb";
 const HomePage = () => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full mx-auto">
         <div role="tablist" className="tabs tabs-bordered">
           <input
             type="radio"

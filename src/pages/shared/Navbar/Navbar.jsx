@@ -1,11 +1,12 @@
+import InputSearch from "@/components/NavbarC/InputSearch";
 import Image from "next/image";
 import logo from "../../../../public/logo.png";
 const Navbar = () => {
   return (
     <>
       <div className="navbar py-3">
-        <div className="navbar-start">
-          <div className="dropdown">
+        <div className="navbar-start justify-normal lg:justify-between">
+          <div className="dropdown flex lg:hidden">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,27 +50,30 @@ const Navbar = () => {
             <Image width={50} height={50} src={logo} alt="website logo" />
             <a className="text-2xl font-bold">Inquiry</a>
           </div>
+          <div className="navbar-center hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <a>About Us</a>
+              </li>
+              <li>
+                <a>Blog</a>
+              </li>
+              <li>
+                <a>Blip</a>
+              </li>
+              <li>
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-            <a>About Us</a>
-            </li>
-            <li>
-              <a>Blog</a>
-            </li>
-            <li>
-              <a>Blip</a>
-            </li>
-            <li>
-              <a>Contact Us</a>
-            </li>
-          </ul>
-        </div>
-        <div className="navbar-end space-x-2">
+        <div className="navbar-end hidden lg:flex space-x-2">
+          <div className="mr-4">
+            <InputSearch />
+          </div>
           <a className="btn hidden lg:flex px-8 text-white rounded-sm btn-sm btn-primary">
             Sign In
           </a>
