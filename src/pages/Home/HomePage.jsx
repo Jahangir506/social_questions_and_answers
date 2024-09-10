@@ -4,7 +4,7 @@ import { TbMessage } from "react-icons/tb";
 const HomePage = () => {
   return (
     <>
-      <div className="w-full mx-auto">
+      <div className="w-full">
         <div role="tablist" className="tabs tabs-bordered">
           <input
             type="radio"
@@ -14,7 +14,7 @@ const HomePage = () => {
             defaultChecked
           />
           <div role="tabpanel" className="tab-content my-4">
-            <div className="border-b w-[320px] lg:w-full border-slate-700">
+            <div className="border-b w-full border-slate-700">
               <div className="p-0 lg:p-5">
                 <div className="flex-col lg:flex gap-3 px-3">
                   <div className="flex gap-5">
@@ -49,11 +49,11 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="w-full mt-5 lg:mt-0">
-                    <h4 className="text-base max-w-72 lg:max-w-3xl text-justify font-semibold py-1.5">
+                    <h4 className="text-base text-justify font-semibold py-1.5">
                       How do native speakers tell I’m foreign based on my
                       English alone?
                     </h4>
-                    <p className="py-6 max-w-72 text-justify lg:max-w-3xl ">
+                    <p className="py-6 text-justify">
                       I’m a 19-year-old student from Malaysia. I’ve been
                       introduced to the language at a very young age and I’m
                       capable of conducting any type of conversation. However,
