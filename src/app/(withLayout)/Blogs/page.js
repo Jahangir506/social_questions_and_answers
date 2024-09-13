@@ -1,10 +1,10 @@
 import Blogs from "@/pages/Blogs/Blogs";
 
-const page = () => {
+const blogPage = () => {
     console.log(name)
     return(
         <>
              <Blogs/>
         </>
     )}
-export default page;
+export default blogPage;
