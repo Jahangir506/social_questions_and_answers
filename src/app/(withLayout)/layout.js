@@ -3,6 +3,7 @@ import UnderSubFooter from "@/pages/shared/Footer/UnderSubFooter";
 import Navbar from "@/pages/shared/Navbar/Navbar";
 
 const layout = ({ children }) => {
+  console.log(name)
   return (
     <>
       <div className="fixed z-50 w-full bg-base-200 w-[320px] lg:w-full border-b border-slate-500">

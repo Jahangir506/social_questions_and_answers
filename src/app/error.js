@@ -5,11 +5,20 @@ import Image from "next/image";
 const error = () => {
   return (
     <>
-      <Image width={100} h={100} alt="error page images"
-        src={
-          "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjBsOG1pc3p6djhkZTFkeTZhb3RveHp2anQwdzdsbWF5b3cyMjN4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UgRfRYyNnQlLXUoLk3/giphy.webp"
-        }
-      />
+      <div className="flex justify-center items-center h-screen text-center">
+        <div className="space-y-4">
+          <h2 className="text-8xl font-bold text-red-600">Oops!</h2>
+          <h5 className="text-red-500">404-PAGE NOT FOUND!</h5>
+          <p className="text-base font-semibold">
+            The page you are looking for is not here.
+          </p>
+          <div className="">
+            <button className="bg_btn-primary text-white px-3 rounded-sm py-1">
+              Back
+            </button>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
