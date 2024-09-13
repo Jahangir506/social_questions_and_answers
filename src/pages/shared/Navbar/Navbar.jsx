@@ -61,10 +61,7 @@ const Navbar = () => {
                 <a>About Us</a>
               </li>
               <li>
-                <Link href="/Blogs">Blog</Link>
-              </li>
-              <li>
-                <a>Blip</a>
+                <Link href="/Blip">Blip</Link>
               </li>
               <li>
                 <a>Contact Us</a>
