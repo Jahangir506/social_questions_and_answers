@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { TbMessage } from "react-icons/tb";
 import { FaUserGroup } from "react-icons/fa6";
+import { TbMessage } from "react-icons/tb";
 
 const RightSideBox = () => {
   return (

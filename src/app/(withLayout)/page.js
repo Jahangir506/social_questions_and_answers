@@ -1,9 +1,6 @@
 import Banner from "@/pages/Banner/Banner";
 import HomePage from "@/pages/Home/HomePage.jsx";
-import Footer from "@/pages/shared/Footer/Footer";
-import UnderSubFooter from "@/pages/shared/Footer/UnderSubFooter";
 import LeftSideRoute from "@/pages/shared/LeftSideRoute/LeftSideRoute";
-import Navbar from "@/pages/shared/Navbar/Navbar";
 import RightSideBox from "@/pages/shared/RightSideBox/RightSideBox";
 
 export default function Home({ children }) {
@@ -22,7 +19,7 @@ export default function Home({ children }) {
               <div className="col-span-full lg:col-span-6 bg-gray-800 border-0 lg:border border-gray-700">
                 <HomePage />
               </div>
-              <div className="col-span-2 hidden lg:grid  border border-slate-700">
+              <div className="col-span-2 h-fit hidden lg:grid  border border-slate-700">
                 <RightSideBox />
               </div>
             </div>
